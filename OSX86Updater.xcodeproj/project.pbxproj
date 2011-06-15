@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		2512988B138C123A00ECF5DB /* dl_chameleon.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2512988A138C123A00ECF5DB /* dl_chameleon.sh */; };
+		256AC3DA0F4B6AC300CF3369 /* UpdateOSX86AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* UpdateOSX86AppDelegate.m */; };
+		258E8736138BF51200577666 /* format_hfs.sh in Resources */ = {isa = PBXBuildFile; fileRef = 258E8735138BF51200577666 /* format_hfs.sh */; };
+		25A8E8EE138CE5AE00D3D7D1 /* compile_chameleon.sh in Resources */ = {isa = PBXBuildFile; fileRef = 25A8E8ED138CE5AE00D3D7D1 /* compile_chameleon.sh */; };
+		25A8E8F0138D526C00D3D7D1 /* install_chameleon.sh in Resources */ = {isa = PBXBuildFile; fileRef = 25A8E8EF138D526C00D3D7D1 /* install_chameleon.sh */; };
+		25BFCCA813A259C10096D07B /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFCCA713A259C10096D07B /* MAAttachedWindow.m */; };
+		5DCB3CC512C9906A000C1E0B /* restore.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5DCB3CC312C9906A000C1E0B /* restore.sh */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D01B0EC212CCED4400DE5B53 /* ShellTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B0EC112CCED4400DE5B53 /* ShellTask.m */; };
+		D0AD057E12C75B9B00A44144 /* applet.icns in Resources */ = {isa = PBXBuildFile; fileRef = D0AD057D12C75B9B00A44144 /* applet.icns */; };
+		D0AD061812C769C800A44144 /* mount.sh in Resources */ = {isa = PBXBuildFile; fileRef = D0AD061212C769C800A44144 /* mount.sh */; };
+		D0AD061A12C769C800A44144 /* rebuild_cache.sh in Resources */ = {isa = PBXBuildFile; fileRef = D0AD061412C769C800A44144 /* rebuild_cache.sh */; };
+		D0C8DBAC12CAB43D00AEEA2A /* clean_unmount.sh in Resources */ = {isa = PBXBuildFile; fileRef = D0C8DBAB12CAB43D00AEEA2A /* clean_unmount.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2512988A138C123A00ECF5DB /* dl_chameleon.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dl_chameleon.sh; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* UpdateOSX86AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateOSX86AppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* UpdateOSX86AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateOSX86AppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* OSX86Updater_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSX86Updater_Prefix.pch; sourceTree = "<group>"; };
+		258E8735138BF51200577666 /* format_hfs.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = format_hfs.sh; sourceTree = "<group>"; };
+		25A8E8ED138CE5AE00D3D7D1 /* compile_chameleon.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = compile_chameleon.sh; sourceTree = "<group>"; };
+		25A8E8EF138D526C00D3D7D1 /* install_chameleon.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_chameleon.sh; sourceTree = "<group>"; };
+		25BFCCA613A259B40096D07B /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		25BFCCA713A259C10096D07B /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5DCB3CC312C9906A000C1E0B /* restore.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = restore.sh; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* OSX86Updater-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OSX86Updater-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* OSX86Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSX86Updater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01B0EC012CCED4400DE5B53 /* ShellTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellTask.h; sourceTree = "<group>"; };
+		D01B0EC112CCED4400DE5B53 /* ShellTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShellTask.m; sourceTree = "<group>"; };
+		D0AD057D12C75B9B00A44144 /* applet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = applet.icns; sourceTree = "<group>"; };
+		D0AD061212C769C800A44144 /* mount.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = mount.sh; sourceTree = "<group>"; };
+		D0AD061412C769C800A44144 /* rebuild_cache.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = rebuild_cache.sh; sourceTree = "<group>"; };
+		D0C8DBAB12CAB43D00AEEA2A /* clean_unmount.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = clean_unmount.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* UpdateOSX86AppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* UpdateOSX86AppDelegate.m */,
+				D01B0EC012CCED4400DE5B53 /* ShellTask.h */,
+				D01B0EC112CCED4400DE5B53 /* ShellTask.m */,
+				25BFCCA613A259B40096D07B /* MAAttachedWindow.h */,
+				25BFCCA713A259C10096D07B /* MAAttachedWindow.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* OSX86Updater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* UpdateOSX86 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = UpdateOSX86;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* OSX86Updater_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8DBAB12CAB43D00AEEA2A /* clean_unmount.sh */,
+				5DCB3CC312C9906A000C1E0B /* restore.sh */,
+				D0AD061212C769C800A44144 /* mount.sh */,
+				258E8735138BF51200577666 /* format_hfs.sh */,
+				2512988A138C123A00ECF5DB /* dl_chameleon.sh */,
+				25A8E8ED138CE5AE00D3D7D1 /* compile_chameleon.sh */,
+				25A8E8EF138D526C00D3D7D1 /* install_chameleon.sh */,
+				D0AD061412C769C800A44144 /* rebuild_cache.sh */,
+				D0AD057D12C75B9B00A44144 /* applet.icns */,
+				8D1107310486CEB800E47090 /* OSX86Updater-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* OSX86Updater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "OSX86Updater" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSX86Updater;
+			productInstallPath = "$(HOME)/Applications";
+			productName = UpdateOSX86;
+			productReference = 8D1107320486CEB800E47090 /* OSX86Updater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OSX86Updater" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* UpdateOSX86 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* OSX86Updater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				D0AD057E12C75B9B00A44144 /* applet.icns in Resources */,
+				D0AD061812C769C800A44144 /* mount.sh in Resources */,
+				D0AD061A12C769C800A44144 /* rebuild_cache.sh in Resources */,
+				5DCB3CC512C9906A000C1E0B /* restore.sh in Resources */,
+				D0C8DBAC12CAB43D00AEEA2A /* clean_unmount.sh in Resources */,
+				258E8736138BF51200577666 /* format_hfs.sh in Resources */,
+				2512988B138C123A00ECF5DB /* dl_chameleon.sh in Resources */,
+				25A8E8EE138CE5AE00D3D7D1 /* compile_chameleon.sh in Resources */,
+				25A8E8F0138D526C00D3D7D1 /* install_chameleon.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* UpdateOSX86AppDelegate.m in Sources */,
+				D01B0EC212CCED4400DE5B53 /* ShellTask.m in Sources */,
+				25BFCCA813A259C10096D07B /* MAAttachedWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OSX86Updater_Prefix.pch;
+				INFOPLIST_FILE = "OSX86Updater-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = OSX86Updater;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OSX86Updater_Prefix.pch;
+				INFOPLIST_FILE = "OSX86Updater-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = OSX86Updater;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "OSX86Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OSX86Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

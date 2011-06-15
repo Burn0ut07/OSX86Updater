@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'UpdateOSX86' target in the 'UpdateOSX86' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
